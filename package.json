@@ -1,7 +1,7 @@
 {
   "name": "ayurtech-api-assign",
   "version": "1.0.0",
-  "description": "",
+  "description": "A REST API that calculates a running average of submitted numbers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
 }
