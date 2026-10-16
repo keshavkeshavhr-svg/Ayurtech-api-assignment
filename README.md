@@ -13,7 +13,7 @@ A simple REST API built with Node.js and Express that calculates the running ave
 Clone the repository:
 
 ```bash
-git clone https://github.com/vkeerthana377-prog/ayurtech-average-api.git
+git clone https://github.com/keshavkeshavhr-svg/Ayurtech-api-assignment.git
 ```
 
 Go to the project folder:
