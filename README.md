@@ -124,12 +124,10 @@ Example:
 
 The API accepts only finite numbers.
 
-Example invalid request:
+Example invalid request(passing a string):
 
-```json
-{
-  "number": "30"
-}
+```bash
+curl -X POST http://localhost:3000/average -H "Content-Type: application/json" -d "{\"number\":\"30\"}"
 ```
 
 Response:
@@ -139,6 +137,8 @@ Response:
   "error": "Number must be a finite number"
 }
 ```
+
+**Note:** The API accepts `30` as a JSON number but rejects `"30"` because it is a JSON string.
 
 ## Running Tests
 
