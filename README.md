@@ -19,7 +19,7 @@ git clone https://github.com/keshavkeshavhr-svg/Ayurtech-api-assignment.git
 Go to the project folder:
 
 ```bash
-cd ayurtech-average-api
+cd Ayurtech-api-assignment
 ```
 
 Install the dependencies:
@@ -178,7 +178,7 @@ chore: configure git hooks
 ## Project Structure
 
 ```text
-ayurtech-average-api/
+Ayurtech-api-assignment/
 ├── .husky/
 │   ├── commit-msg
 │   └── pre-commit
