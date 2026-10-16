@@ -4,7 +4,9 @@
   "description": "A REST API that calculates a running average of submitted numbers",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+  "test": "node --test",
+  "dev": "node --watch src/server.js"
   },
   "keywords": [],
   "author": "",
