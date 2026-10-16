@@ -1,4 +1,4 @@
-# Ayurtech Average API
+# Ayurtech Average API Assignment
 
 A simple REST API built with Node.js and Express that calculates the running average of all numbers submitted to the API.
 
